@@ -20,7 +20,8 @@ public class PersonService {
   public int addPerson(Person person) {
     return personDao.insertPerson(person);
   }
-//  public List<Person> getAllPeople() {
-//    return personDao.selectAllPeople();
-//  }
+
+  public List<Person> getAllPeople() {
+    return personDao.selectAllPeople();
+  }
 }
