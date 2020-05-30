@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import com.example.demo.dao.PersonDao;
 import com.example.demo.model.Person;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -19,5 +20,7 @@ public class PersonService {
   public int addPerson(Person person) {
     return personDao.insertPerson(person);
   }
-
+//  public List<Person> getAllPeople() {
+//    return personDao.selectAllPeople();
+//  }
 }
