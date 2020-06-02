@@ -1,3 +1,3 @@
 adding validations to spring 2.3.0: https://stackoverflow.com/questions/48614773/spring-boot-validation-annotations-valid-and-notblank-not-working
 
-How to get past Failed to configure datasource error: https://www.baeldung.com/spring-boot-failed-to-configure-data-source
+How to get past Failed to configure com.example.demo.datasource error: https://www.baeldung.com/spring-boot-failed-to-configure-data-source
